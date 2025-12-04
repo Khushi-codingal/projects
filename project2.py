@@ -1,4 +1,4 @@
-#let's check the birth  dates of raju's friends
+#let's check the data type of birth  dates of raju's friends
 swetha = 21/12/2013
 print("type of swetha : ", type(swetha))
 

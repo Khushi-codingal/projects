@@ -1,3 +1,4 @@
+#Find the square of numbers
 import math
 
 number = 25
