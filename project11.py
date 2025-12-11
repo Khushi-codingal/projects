@@ -1,4 +1,10 @@
-decimal_number = int(input("enter  the number:")) 
-binary_string = bin(decimal_number)
-print(f"The binary representation of {decimal_number} is: {binary_string}")
+rows = int(input("Please Enter the Total Number of Rows: "))
+
+print("Mirrored Right Angle Triangle Number Pattern")
+for i in range(1, rows + 1):
+    for j in range(1, rows - i + 1):
+        print("* ", end=' ') 
+    for k in range(1, i + 1):
+        print(k, end=' ')
+        print()
 
